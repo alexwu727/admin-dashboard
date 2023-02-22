@@ -8,9 +8,11 @@ const TransactionSchema = new mongoose.Schema(
             min: 2,
             max: 100,
         },
-        productId: String,
-        quantity: Number,
-        total: Number,
+        products: {
+            type: [mongoose.Types.ObjectId],
+            of: Number,
+        },
+        cost: Number,
         date: String
     },
     { timestamps: true }

@@ -54,7 +54,7 @@ const LoadingCards = ({ count }) => {
     const theme = useTheme();
     for (let i = 0; i < count; i++) {
         result.push(
-            <Card
+            <Card key={i}
                 sx={{
                     height: "200px",
                     backgroundImage: "none",
