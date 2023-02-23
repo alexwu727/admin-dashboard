@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { useGetSalesQuery } from 'state/api'
 import { Box, useTheme, FormControl, InputLabel, MenuItem, Select } from '@mui/material'
 import Header from 'components/Header'
 import OverviewChart from 'components/OverviewChart'

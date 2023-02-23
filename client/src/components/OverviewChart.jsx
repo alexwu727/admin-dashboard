@@ -155,7 +155,6 @@ const OverviewChart = ({ isDashboard = false, view }) => {
                     }
                 ] : undefined}
         />
-
     )
 }
 
