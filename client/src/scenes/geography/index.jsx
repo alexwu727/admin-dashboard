@@ -22,7 +22,7 @@ const Geography = () => {
                                         stroke: theme.palette.secondary[200],
                                     }
                                 },
-                                legends: {
+                                legend: {
                                     text: {
                                         fill: theme.palette.secondary[200],
                                     }
@@ -40,6 +40,7 @@ const Geography = () => {
                             legends: {
                                 text: {
                                     fill: theme.palette.secondary[200],
+                                    fontSize: 14,
                                 }
                             },
                             tooltip: {
