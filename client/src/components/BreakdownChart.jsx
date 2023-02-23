@@ -16,6 +16,7 @@ const BreakdownChart = ({ isDashboard = false }) => {
         theme.palette.secondary[500],
     ]
     // format data for nivo, use data.salesByCategory and format in {id, label, value, color}
+    console.log(data.salesByCategory);
     const formattedData = Object.entries(data.salesByCategory).map(([key, value], index) => {
         return {
             id: key,
