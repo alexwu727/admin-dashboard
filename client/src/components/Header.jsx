@@ -1,6 +1,5 @@
 import React from 'react'
 import { Typography, Box, useTheme } from '@mui/material'
-import { fontWeight } from '@mui/system'
 
 const Header = ({ title, subtitle }) => {
     const theme = useTheme()
